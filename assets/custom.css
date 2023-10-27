@@ -1,0 +1,18 @@
+/* Targeting rows of the Dash DataTable */
+.dash-table-container tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.dash-table-container tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.902);
+}
+
+.my-table tbody tr:nth-child(odd) {
+    background-color: #D3F4FB; 
+}
+
+
+ body{    background-color: #ebe7e757 !important;}
+.Select-menu-outer {
+  font-size: 18px;  /* Or whatever size you want */
+}
