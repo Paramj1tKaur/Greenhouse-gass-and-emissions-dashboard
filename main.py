@@ -1,5 +1,3 @@
-
-## https://github.com/yaumianwar/student-exam-score-dashboard/blob/main/main.py
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
@@ -27,7 +25,7 @@ def rename_and_store_units(df):
 # columns to change from object to numeric
 columns_to_convert = ['Total scope 1 emissions (t CO2-e)',
        'Total scope 2 emissions (t CO2-e)', 
-       'Net energy consumed (GJ)']  # Replace with the actual indices or names of the columns you want to convert
+       'Net energy consumed (GJ)'] 
 
 # Get data
 CE_Controlling_corporations = "https://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/Greenhouse%20and%20energy%20information%20by%20registered%20corporation%202021-22.csv"
@@ -176,5 +174,5 @@ def update_list_scores(selected_value, page):
     return table
 
 # Run the app
-app.run_server(debug=True)  # You can specify the 'debug' mode to enable or disable debugging
+app.run_server(debug=True)  
 
