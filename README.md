@@ -7,7 +7,7 @@
 ### The application show:
 - Five cards
 - Interactive figure for the greenhouse and energy distribution by user selected option 
-- Interactive table reporting top 100 emitters or consumers 100 by user selected option. 
+- Interactive table reporting top 100 emitters or consumers by user selected option. 
 
 
 ## Code
@@ -33,7 +33,7 @@ The code is divided into following components:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd your-repository-name
+    cd Greenhouse-gass-and-emissions-dashboard
     ```
 3. Install the required packages:
     ```bash
@@ -43,6 +43,9 @@ The code is divided into following components:
 1. Run the Dash app:
     ```bash
     python main.py
+    
+    This will start the application and you would see output similiar to the following
+    Running on `http://127.0.0.1:8050/`.
     ```
 2. Open your web browser and go to `http://127.0.0.1:8050/`.
 
