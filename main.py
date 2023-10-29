@@ -136,7 +136,7 @@ def update_histogram(value):
 )
 
 def update_table_title(selected_value):
-    return f"Top 100 emitters and consumers by {selected_value.lower()}"
+    return f"Top 100 emitters or consumers by {selected_value.lower()}"
 
 
 @callback(
