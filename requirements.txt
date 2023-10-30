@@ -1,0 +1,5 @@
+Python
+dash 
+dash_bootstrap_components
+pandas
+plotly.graph_objects
